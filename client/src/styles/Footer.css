@@ -1,0 +1,41 @@
+.Footer {
+    background-color: #111111; /* Deep Black */
+    color: #ff3333; /* Vibrant Red */
+    padding: 3vh 3vw;
+    margin-top: 3vh;
+}
+
+.Footer h4 {
+    margin-left: 2vw;
+    color: #ff6666; /* Lighter Red */
+}
+
+.footer-body {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10vw;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+
+.footer-body ul {}
+
+.footer-body ul li {
+    list-style: none;
+    color: #cccccc; /* Light Gray */
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer-body ul li:hover {
+    list-style: none;
+    color: #ff3333; /* Vibrant Red */
+}
+
+.footer-bottom {}
+
+.footer-bottom p {
+    text-align: center;
+    color: #999999; /* Medium Gray */
+    margin: 0;
+}

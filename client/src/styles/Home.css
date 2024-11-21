@@ -1,0 +1,40 @@
+.HomePage {
+    margin-top: 20vh; /* Slightly reduced for better balance */
+}
+
+.home-categories-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8vh; /* Reduced for tighter layout */
+    margin-bottom: 12vh; /* Reduced for consistency */
+}
+
+.home-category-card {
+    text-align: center;
+    width: 230px; /* Increased for a better display */
+    height: fit-content;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    padding: 20px; /* Increased for better spacing */
+    background-color: #f9f9f9; /* Added subtle background color */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.home-category-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 16px, rgba(0, 0, 0, 0.05) 0px 8px 32px; /* Darker hover shadow */
+    transform: translateY(-5px); /* Slight lift effect */
+}
+
+.home-category-card img {
+    width: 190px; /* Increased for better proportions */
+    height: 190px; /* Increased for consistency */
+    border-radius: 50%;
+    border: 2px solid #d1d1d1; /* Slightly darker border */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px; /* Subtle shadow */
+}
+
+.home-category-card h5 {
+    padding-top: 10px; /* Increased spacing */
+    color: #3c3c3c; /* Slightly darker for better readability */
+    font-weight: 600; /* Added emphasis */
+}

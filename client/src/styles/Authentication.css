@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@400&display=swap');
+
+.AuthenticatePage {
+    width: 100%;
+    height: 100vh;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111; /* Deep Black */
+    font-family: 'Roboto', sans-serif; /* Modern body font */
+}
+
+.authForm {
+    padding: 30px;
+    width: 350px; /* Compact width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto; /* Adjust height to content */
+    font-family: 'Roboto', sans-serif; /* Consistent font */
+    background-color: rgba(40, 40, 40, 0.9); /* Semi-transparent black */
+    backdrop-filter: blur(15px);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 10px, rgba(255, 0, 0, 0.3) 0px 4px 20px;
+    border-radius: 0.7rem;
+}
+
+.authForm h2 {
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif; /* Bold and modern header font */
+    color: #ff3333; /* Vibrant Red */
+    font-size: 2rem; /* Larger size for prominence */
+}
+
+.authFormInputs {
+    width: 100%;
+    margin-bottom: 20px; /* Added spacing between inputs */
+}
+
+.authFormInputs label {
+    display: block; /* Block-level for better alignment */
+    color: #ff6666; /* Light Red */
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; /* Standout font for labels */
+    margin-bottom: 5px; /* Added spacing below label */
+}
+
+.authFormInputs input {
+    width: 100%; /* Full width for consistency */
+    color: #cccccc; /* Light Gray */
+    border: 1px solid #ff3333; /* Red border */
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.8); /* Black input background */
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif; /* Clean font for inputs */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.authFormInputs input:focus {
+    border-color: #ff6666; /* Lighter Red */
+    box-shadow: 0 0 10px rgba(255, 102, 102, 0.7);
+}
+
+.authForm select {
+    width: 100%; /* Full width for consistency */
+    color: #cccccc;
+    border: 1px solid #ff3333;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif; /* Matches input font */
+    margin-bottom: 20px; /* Added spacing below */
+}
+
+.authForm button {
+    background-color: #ff3333; /* Vibrant Red */
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; /* Distinctive font for button text */
+    color: #ffffff; /* White text */
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.authForm button:hover {
+    background-color: #ff6666; /* Lighter Red */
+    box-shadow: 0 0 15px rgba(255, 102, 102, 0.7);
+}
+
+.authForm p {
+    margin-top: 10%; /* Increased spacing for better layout */
+    color: #cccccc; /* Light Gray */
+    font-family: 'Roboto', sans-serif; /* Body font */
+}
+
+.authForm p span {
+    color: #ff3333; /* Vibrant Red */
+    cursor: pointer;
+    text-decoration: underline; /* Underline to indicate interactivity */
+    font-family: 'Montserrat', sans-serif; /* Bold font for emphasis */
+}
+
+.authForm p span:hover {
+    color: #ff6666; /* Lighter Red */
+}
